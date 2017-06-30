@@ -5,8 +5,11 @@ This project is about how to classify land use image using *Convolutional Neural
 Based on dataset, there are 2100 land use images that categorized into 21 classes, so each category has 100 land use images with dimension 256 x 256 pixel. In this project, we will use 85 data for each class as training data and 5 data for each class as testing data, so total 1785 land use images use as training data with 21 class/label and 105 land use images use as testing data with 21 class/label.
 
 ## Methods ##
-have not finished yet...
+Deep Learning model used in this project is Convolutiona Neural Network (CNN). the illustration of CNN works can be seen as follows. Figure below from [Kernix](https://www.kernix.com/blog/a-toy-convolutional-neural-network-for-image-classification-with-keras_p14):
 
+![Fig.1](https://raw.github.com/tavgreen/landuse_classification/master/file/cnn.png?raw=true "Auto Encoder") 
+
+Let say we have MNIST dataset, 
 ## How Program Works ##
 - Import libraries
 ```python
