@@ -76,6 +76,8 @@ print('\nTesting loss: {}, acc: {}\n'.format(loss, acc))
 ```
 ## Result ##
 accuracy 10 epochs: 47%
+accuracy 50 epochs: 60%
+accuracy 100 epochs: try by yourself :)
 
 ## Feature Works ##
 You can try another type of convolutional neural network model like:
