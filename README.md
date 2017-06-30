@@ -72,6 +72,7 @@ loss, acc = model.evaluate(x_test, y_test, verbose=0) #evaluate testing data and
 print('\nTesting loss: {}, acc: {}\n'.format(loss, acc))
 ```
 ## Result ##
+accuracy 10 epochs: 47%
 
 ## Feature Works ##
 You can try another type of convolutional neural network model like:
