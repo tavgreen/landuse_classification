@@ -5,11 +5,12 @@ This project is about how to classify land use image using *Convolutional Neural
 Based on dataset, there are 2100 land use images that categorized into 21 classes, so each category has 100 land use images with dimension 256 x 256 pixel. In this project, we will use 85 data for each class as training data and 5 data for each class as testing data, so total 1785 land use images use as training data with 21 class/label and 105 land use images use as testing data with 21 class/label.
 
 ## Methods ##
-Deep Learning model used in this project is Convolutiona Neural Network (CNN). the illustration of CNN works can be seen as follows. Figure below from [Kernix](https://www.kernix.com/blog/a-toy-convolutional-neural-network-for-image-classification-with-keras_p14):
+Deep Learning model used in this project is Convolutiona Neural Network (CNN). The illustration of CNN works can be seen as follow Figure below taken from [Kernix](https://www.kernix.com/blog/a-toy-convolutional-neural-network-for-image-classification-with-keras_p14):
 
 ![Fig.1](https://raw.github.com/tavgreen/landuse_classification/master/file/cnn.png?raw=true "Auto Encoder") 
 
-Let say we have MNIST dataset, 
+Let say we have MNIST dataset(60k images with 10 labels ( 0 - 9 )) with size each image 32x32 pixels that will be fed into CNN model. the first layer is Convolutional 2D layer with 5x5 kernel size. It means, kernel 5x5 will be convolve (overlapping) each input image pixels until end of pixel. The result of convolution is feature maps with size 28x28. After that, Max Pooling layer will be performed as subsampling with kernel 2x2 (non-overlapping). The result of max pooling layer is feature maps with size 14x14 (because of non-overlapping so stride/movement of kernel is 2).Convolution layer and Max Pooling layer then will be performed again until produce feature maps with size 5x5. Each output in convolutional layer can be activated by using ReLU. After obtaining appropriate feature maps, Fully Connected layer will be performed until produce output y. output can be produced by using Softmax.
+
 ## How Program Works ##
 - Import libraries
 ```python
