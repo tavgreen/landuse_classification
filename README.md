@@ -85,7 +85,7 @@ You can try another type of convolutional neural network model like:
 - [He et al](https://arxiv.org/pdf/1512.03385v1.pdf). (2015). Deep Residual Learning for Image Recognition
 
 ## References ##
-U Merced Land Use. [Uc Merced](http://vision.ucmerced.edu/datasets/landuse.html).
-Keras Blogg. [@fchollet](https://github.com/fchollet/keras/tree/master/examples).
-Keras Documentation. [Keras IO](http://keras.io).
-Adnan Ardhian. [@adnanardhian](https://github.com/adnanardhian).
+- U Merced Land Use. [Uc Merced](http://vision.ucmerced.edu/datasets/landuse.html).
+- Keras Blogg. [@fchollet](https://github.com/fchollet/keras/tree/master/examples).
+- Keras Documentation. [Keras IO](http://keras.io).
+- Adnan Ardhian. [@adnanardhian](https://github.com/adnanardhian).
