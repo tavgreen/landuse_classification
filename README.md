@@ -52,7 +52,7 @@ y_train = keras.utils.to_categorical(y_train, 21) #change label to binary / cate
 y_test = keras.utils.to_categorical(y_test, 21) #change label to binary / categorical
 ```
 - Define a model
-```
+```python
 model = Sequential() #model = sequential 
 model.add(Conv2D(32, kernel_size=(3, 3),activation='relu',input_shape=input_shape)) #layer convolutional 2D
 model.add(MaxPooling2D(pool_size=(2,2))) #max pooling with stride (2,2)
