@@ -86,9 +86,6 @@ You can try another type of convolutional neural network model like:
 
 ## References ##
 U Merced Land Use. [Uc Merced](http://vision.ucmerced.edu/datasets/landuse.html).
-
 Keras Blogg. [@fchollet](https://github.com/fchollet/keras/tree/master/examples).
-
 Keras Documentation. [Keras IO](http://keras.io).
-
 Adnan Ardhian. [@adnanardhian](https://github.com/adnanardhian).
